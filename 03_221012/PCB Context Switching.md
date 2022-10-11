@@ -30,7 +30,7 @@
 
       waiting : I/O등의 이벤트가 발생하기를 기다리고있다. → 프로세스 스스로 무언가를 기다리고있음.
 
-      ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7ef34e8-d433-4180-a422-3f60d430c500/Untitled.png)
+      ![img](https://raw.githubusercontent.com/MonsileI/STUDY_CS/root/03_221012/context%20switching.png)
 
       ***
 
@@ -65,7 +65,7 @@
 
    > 문맥 교환 시나리오
    >
-   > ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cac05179-084f-4713-8ad0-789eafcc0e8c/Untitled.png)
+   > ![img](https://raw.githubusercontent.com/MonsileI/STUDY_CS/root/03_221012/process%20state.png)
    >
    > - idle : 프로세스가 실행되지않고있는 상태
    >
