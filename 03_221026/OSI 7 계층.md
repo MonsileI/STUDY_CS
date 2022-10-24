@@ -4,14 +4,14 @@
 
 OSI 7 계층은 네트워크 통신이 일어나는 과정을 7단계로 나눈 국제 표준화 기구(ISO)에서 정의한 네트워크 표준 모델입니다. 이 모델을 통해 통신이 일어나는 과정을 단계별로 파악하여 7단계 중 특정한 곳에 이상이 생기면 다른 단계의 장비 및 소프트웨어를 건들이지 않고도 이상이 생긴 단계만 고칠 수 있습니다.
 
-![Untitled 1](https://user-images.githubusercontent.com/67513311/197606810-2d717073-4b98-4d75-b3db-9efcbdbe65f0.png)
+![Untitled](https://user-images.githubusercontent.com/67513311/197607070-aabc2361-a555-4fa5-8846-eb06f4c53369.png)
 
 - 응용 계층 (Application Layer) 에서 시작된 정보 전달은 물리 계층 (Physical Layer) 까지 내려가면서 각 계층마다 데이터 앞에 계층 정보를 포함하는 헤더(혹은 트레일러)가 붙게됩니다. 이 과정을 Encapsulation 이라고 합니다.
 - 반대로 정보를 수신을 받은 컴퓨터에서는 물리 계층 부터 응용 계층 까지 이동하며 헤더(혹은 트레일러)를 제거하게 되는데 이 과정을 Decapsulation 이라고 합니다.
 - 여기서 헤더(혹은 트레일러)는 전송할 때 필요한 정보이므로 실제 송신자와 수신자에게 전달되는 정보는 아닙니다.
 - 물리 계층과 응용 계층을 제외하고 나머지 계층에서 데이터의 시작과 끝부분에 헤더(시작, 머리 부분)나 트레일러(끝, 꼬리 부분) 형태로 정보가 추가됩니다.
 
-![Untitled 2](https://user-images.githubusercontent.com/67513311/197607053-d7f4cf7c-264f-4511-aabf-64e08376b6ec.png)
+![Untitled 1](https://user-images.githubusercontent.com/67513311/197606810-2d717073-4b98-4d75-b3db-9efcbdbe65f0.png)
 
 ## 1 계층 - 물리 계층 (Physical Layer)
 
@@ -70,4 +70,4 @@ OSI 7계층과의 차이점
 
 - TCP/IP 계층과 달리 OSI 계층은 애플리케이션 계층을 세 개로 쪼개고 링크 계층을 데이터 링크 계층, 물리 계층으로 나눠서 설명하는 것이 다르며, 인터넷 계층을 네트워크 계층으로 부른다는 점이 다릅니다.
 
-![Untitled](https://user-images.githubusercontent.com/67513311/197607070-aabc2361-a555-4fa5-8846-eb06f4c53369.png)
+![Untitled 2](https://user-images.githubusercontent.com/67513311/197607053-d7f4cf7c-264f-4511-aabf-64e08376b6ec.png)
